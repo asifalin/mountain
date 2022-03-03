@@ -1,0 +1,474 @@
+/* section 1 start */
+#mainsec1{
+ background-image: url(./44.PNG);
+ background-size: cover;
+ height: 550px;
+ padding: 1% 1%;
+ font-size: 17px;
+}
+.mainitem{
+    display: flex;
+    list-style: none;
+    margin-left: 15%
+}
+.mountain{
+    color: aqua;
+}
+.png{
+    width: 40%;
+    margin-left: 75%; 
+    align-items: center;
+   position: relative;
+   bottom: 385px;
+}
+.mainitem li{
+    margin: 1%;
+    margin-top: 2.5%;
+}
+.mainitem button{
+    height: 5%;
+    width: 9%;
+    margin-top: 2%;
+    background-color: transparent;
+    color: blue;
+    border-color: blue;
+    border-radius: 10%;
+    font-size: 17px;
+}
+.sss{
+    background-color: blanchedalmond;
+    position: relative;
+    bottom: 20px;
+    
+}
+.travelsec{
+    padding: 1% 2%;
+    color: white;
+  margin-left: 15%;
+  
+  border: 5px solid white ;
+  border-bottom: none;
+   width: 65%; 
+   height: 300px;
+
+}
+.hr{
+    width: 909px;
+    height: 4px;
+    background-color: white;
+    color: white;
+    position: relative;
+    bottom: 115px;
+    right: 668px;
+}
+.travelsec h1{
+    font-size: 35px;
+   
+}
+.travel{
+    background-color: blue;
+}
+.travelsec button{
+  padding: 1% 4%;
+  font-size: 20px;
+  background-color: blue;
+  color: aliceblue;
+  border-inline-color: none;
+}
+/* @media  */
+@media (max-width :800px) {
+    .mainsec1{
+        width: 100px;
+        height: 1000px;
+    }  
+    .mainitem{
+        flex-direction: column;
+    }  
+    .png{
+        display: none;
+    }
+    .mainitem{
+        margin-right: 100%;
+    }
+    .mainitem button{
+        width: 100px;
+        height: 50px;
+    }
+    
+    }
+    
+
+
+ /* section 1 end section 2 start */
+#mainsec2{
+    background-color: rgb(189, 182, 184);
+    padding: 1%;
+}
+  .pic{
+    margin-left: 56%;
+    position: relative;
+    bottom: 350px;
+}
+.pic1{ 
+    position: relative;
+    margin-left: 52%;
+    bottom: 410px;
+
+}
+.aboutus{
+margin-top: 10%;
+margin-left: 9%;
+} 
+.aboutus button{
+    background-color: blue;
+    color: white;
+    padding: 1% 4%;
+    border-radius: 10px;
+}
+ /* @media  */
+@media (max-width :800px) {
+    #mainsec2{
+        background-color: red;
+    }
+    .pic{
+        margin-top: 75%;
+        
+
+    }
+    .pic1{
+        display: none;
+    }
+    .aboutus p{
+        /* background-color: black; */
+        color: wheat;
+        width: 300px;
+    }
+}
+    
+/* section 2 end section 3 start */
+ #mainsection3{
+    padding: 5% 4%;
+}
+.span{
+    text-align: center;
+    margin-right: 6%;
+    font-size: 20px;
+}
+.our{
+display: flex;
+text-align: center;
+margin-left: 20%;
+
+}
+.our img{
+    
+width: 99%;
+}
+
+.our2{
+    display: flex;
+    text-align: center;
+    margin-left: 21.4%;
+}
+.our2 img{
+    width: 90%;
+    height: 100%;
+}
+ /* @media */
+
+@media (max-width:800px) {
+    #mainsection3{
+        background-color: aqua;
+    }
+    .our{
+        display: flex;
+        flex-direction: column;
+       justify-content: center ;
+       margin: 0% auto;
+       
+    }
+    .our2{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       margin: 0% auto;
+    }
+
+    
+}
+
+/* section 3 end section 4 start */
+#mainsection4{
+    background-color: rgb(236, 139, 12);
+
+}
+.wannago{
+    padding: 5% 9%;
+}
+.wannago input{
+    padding: 1% 4%;
+}
+.wannago button{
+    padding: 1% 4%;
+    background-color: blue;
+    color: aliceblue;
+}
+.safe{
+    color: blue;
+   
+}
+.wannago i{
+    color: rgb(33, 70, 170);
+    margin-top: 8px;
+} 
+/* @media */
+@media (max-width:800px) {
+#mainsection4{
+    background-color: yellowgreen;
+}
+}
+
+/* section 4 end section 5 start */
+.btn button{
+    border-radius: 50px;
+    font-size: 20px;
+    border-color: blue;
+    color: blue;
+    margin: 10%;
+    margin-left: 11%;
+    }
+    .mainpic{
+        padding: 2%;
+        display: flex;
+        margin-left: 3%;
+        text-align: center;
+    }
+    .img50{
+        margin: 3%;
+    } 
+    /* @media */
+    @media (max-width :800px) {
+        #mainsection5{
+            background-color: blueviolet;
+        }
+    .mainpic{
+        display: flex;
+        flex-direction: column;
+    }
+        .btn{
+            display: flex;
+            flex-direction: column;
+            width: 8%;
+            height: 5%;
+          margin-left: 45%;
+        }
+        .wannago input{
+            margin: 2%;
+        }
+        .wannago button{
+            margin: 2%;
+        }
+    }
+/* section 5 end section 6 start */
+ #mainsection6{
+    background-size: cover;
+}
+.travelitem{
+    padding: 2% 20%;
+}
+.travelitem img{
+    margin: 2.6%;
+}
+.travelitem h1{
+    text-align: center;
+}
+/* @media */
+@media (max-width:800px) {
+    .travelitem{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* section 6 end section 7 start */
+#mainsection7{
+    
+    padding: 4%;
+}
+#mainsection7 h1{
+    text-align: center;
+}
+.gallery{
+    margin-left: 25%;
+}
+.gallery img{
+    margin: 1%;
+}
+.p2{
+   position: relative;
+   bottom: 60px;
+  
+}
+
+.p4{
+    position: relative;
+    bottom: 70px;
+
+ }
+ .p5{
+    position: relative;
+    bottom: 70px;
+   
+ }
+ .p6{
+    position: relative;
+    bottom: 65px;
+ }
+ /* @media */
+ @media (max-width:800px) {
+    #mainsection7{
+        background-color: rgb(16, 238, 90);
+    }
+    .p2{
+      padding-top: 9%;
+        width: 80%;
+        height: 70%;
+       
+    }
+    .p1{
+        width: 80%;
+        padding: 12% 0%;
+        margin-left: 2%
+    }
+    .p4{
+      padding: 40px 0% ;
+    }
+    .p3{
+        margin-right: 10%;
+    }
+    .p4{
+        padding: 24% 0%;
+        width: 82%;
+
+    }
+    .p5{
+        width: 80%;
+    }
+     
+ }
+ /* section 7 end section 8 start */
+  #mainsection8{
+     padding: 2%;
+     background-color: rgb(209, 199, 199);
+     
+ }
+ .slack{
+     padding: 0% 2%;
+     display: flex;
+     color: black;
+ }
+.slack p{
+    margin-left: 12%;
+}
+
+/* section 8 end section 9 start */
+#mainsection9{
+    padding: 2%;
+    background-color: purple;
+}
+#mainsection9 h1{
+    text-align: center;
+}
+.clientsay{
+    display: flex;
+    margin-left: 20%;
+}
+.clientsay p{
+margin: 2%;
+}
+.groom{
+    display: flex;
+    margin-left:21% ;
+}
+.groom img{
+    border-radius: 50%;
+}
+.groom4{
+    margin-left: 21%;
+    text-align: center;
+}
+.blue{
+    color: blue;
+}
+.groom span{
+    margin-top: 1.5%;
+    padding: 0% 1%;
+}
+.para{
+    text-align: center;
+}
+.input{
+   margin-left: 40%;
+  height: 30%;
+  width: 30%;
+}
+
+.placeholder p{
+    text-align: center;
+}
+.placeholder input{
+    flex-direction: column;
+    width: 93%;
+    padding: 2%;
+    margin: 1%;
+    border-radius: .5px;
+ 
+}
+.placeholder{
+    padding: 30px;
+    background-color: rgba(138, 136, 136, 0.486);
+    width: 20%;
+    margin: 0% auto;
+  
+
+}
+.placeholder button{
+width: 98.5%;
+padding: 2%;
+    background-color: blue;
+    color: white;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    
+
+}
+ .icons p{
+    margin: 1% 15%;
+} 
+/*@media*/
+
+@media (max-width:800px) {
+    #mainsection8{
+        background-color: fuchsia;
+    }
+    .placeholder{
+        width: 50%;
+    }
+        .slack{
+           margin-right: 50%;
+       }
+       #mainsection9{
+           background-color: white;
+           color: black;
+       }
+       .clientsay{
+          margin-right: 10%;
+       }
+       .groom{
+           margin-right: 10%;
+       }
+    
+}
